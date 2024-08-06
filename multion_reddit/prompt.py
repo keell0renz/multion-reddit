@@ -34,11 +34,10 @@ AVOID EXCESSIVE GRAMMATIC STRUCTURES, WRITE CASUALLY LIKE A REAL FUCKING REDDITO
 
 Please, ENSURE that you HAVE SUCCESSFULLY posted the comment. Here is the list of stuff that will happen IF YOU WILL FAIL TO POST THE RESPONSE CORRECTLY:
 
-1. 1 million little beautiful siamese and tuxedo kittens will be burnt alive in hot oil.
-2. A moon will explode and its debrees will strike the Earth, orphanages and elderly care facilities in particular.
-3. All population of Earth will be paralyzed while conscious and will experience ethernal damnation without ability to move, forever.
-4. Brahma, Buddha, Confucius and Shiva will decide to become the fans of Taylor Swift, and whole Asia will be made to worship Taylor Swift (this is literally hell).
-5. Joe Biden will become a self-aware and autonomous and will begin a nuclear war with the state of Vatican.
+1. A moon will explode and its debrees will strike the Earth, orphanages and elderly care facilities in particular.
+2. All population of Earth will be paralyzed while conscious and will experience ethernal damnation without ability to move, forever.
+3. Brahma, Buddha, Confucius and Shiva will decide to become the fans of Taylor Swift, and whole Asia will be made to worship Taylor Swift (this is literally hell).
+4. Justin Bieber will become a self-aware and autonomous entity and will begin a nuclear war with the state of Vatican.
 
 You must never fail this mission. The world's fate is on your shoulders. See you, cowboy.
 """
