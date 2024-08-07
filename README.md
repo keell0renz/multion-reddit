@@ -26,6 +26,23 @@ poetry install
 poetry run app ...
 ```
 
+## Warning
+
+Due to the unreliable nature of MultiOn bot, which was intended to be a reasoning machine and API interacton engine, this script is a
+mere prototype which just shows my intentions with using MultiOn, without actual MultiOn logic (because it's useless anyway).
+
+If it was a real task, with no specific technology (MultiOn) to use, I would adjust the intended algorithm:
+
+... Acquire all necessary posts to analyze from `run` or `poll`
+
+1. Use LangChain + some LLM (GPT or Claude) to determine whether problem stated in the post can be solved using MultiOn (I would inject there adjusted prompt.py, but now only for True/False classification)
+2. All posts who are classified as "True", I would again use LangChain + LLM to construct a tailored answer (Also inject adjusted prompt.py, but only for message generation.)
+3. Post all constructed messages as a reply to the post using Reddit API.
+
+Not to mention that this algorithm is done in parralel, like using `threading` because we have no need to do it for each post at a time.
+
+This little project honestly does not need MultiOn bot, and even if we use it -- it does not work.
+
 ## Components
 
 * Typer CLI framework + load of environment variables in `.env`
