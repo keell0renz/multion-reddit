@@ -66,6 +66,11 @@ def run(
             f'Got a post to evaluate: "{submission.title}", URL: {submission.url}'
         )
 
+        # At this point I just launch some kind of parralelized pipeline like with MultiOn agent, which
+        # works as reasoner and replier bot, or LangChain + LLM two-stage chain to determine whether
+        # post's problem can be solved with MultiOn based on MultiOn docs and to generate tailored casual response,
+        # and post it using just Reddit API, which is honestly easier, cheaper and just nicer than using MultiOn at this point.
+
 
 @app.command()
 def poll(
@@ -89,7 +94,10 @@ def poll(
                 logging.info(
                     f'Got a post to evaluate: "{submission.title}", URL: {submission.url}'
                 )
-                # Add your logic to determine if a response should be made and send it
+                # At this point I just launch some kind of parralelized pipeline like with MultiOn agent, which
+                # works as reasoner and replier bot, or LangChain + LLM two-stage chain to determine whether
+                # post's problem can be solved with MultiOn based on MultiOn docs and to generate tailored casual response,
+                # and post it using just Reddit API, which is honestly easier, cheaper and just nicer than using MultiOn at this point.
 
         time.sleep(m * 60)
 
