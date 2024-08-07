@@ -2,14 +2,28 @@
 
 ## Architecture
 
-Has two modes, `run` and `poll`. When `run` is used, program scans first `N` specified posts in given subreddit, determines where a promoting answer should be done, constructs a response based on MultiOn usecases and docs, and sends a response to a post. When `poll` is used, the bot checks every `M` minutes specified for new posts, and does same replying algorithm.
+Has two modes, `run` and `poll`. When `run` is used, program scans first `N` specified posts in given subreddit, determines where a promoting answer should be done, constructs a response based on MultiOn usecases and docs, and sends a response to a post. When `poll` is used, the bot checks every `M` minutes specified for `N` new posts, and does same replying algorithm.
 
 ```bash
-redditor-multion run -N 20 webscraping
+poetry run app run -n 20 webscraping
 ```
 
 ```bash
-redditor-multion poll -M 30 webscraping
+poetry run app poll -m 30 -n 30 webscraping
+```
+
+## Use
+
+```bash
+cd multion-reddit
+```
+
+```bash
+poetry install
+```
+
+```bash
+poetry run app ...
 ```
 
 ## Components
